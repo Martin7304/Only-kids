@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>-->
+    <!-- jquery cdn-->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- bootstrap css-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"
+        defer></script><!-- bootstrap js-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Patua+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+    
+    <script src="inicio.js"  defer></script>
+    <!-- <style> 
+        ul{
+            list-style: none;
+        }
+        ul li::before{
+                content: "\25AA";  
+                color: white; 
+                display: inline-block; 
+                width: 1em;
+                margin-left: -0.15em;
+                font-weight: bold;
+                font-size:1.1rem;
+        }
+</style>-->
+<script src="https://kit.fontawesome.com/72286fea37.js" crossorigin="anonymous"></script>
+    <title>Only Kids</title>
+</head>
+
+
+<body>
+
+    <header class="fondoimg">
+        <div class="jjj">
+            <div class="presentacion" id="presentacion">
+                <img id="imgOnly" src="fotoss/logo.jpeg" alt="Only Kids">
+
+                <div class="boton">
+                    <a href="#bienvenidos1" id="enlaces" class="enlaces1" target="">
+                        <h4>Inicio</h4>
+                    </a>
+
+                    <a href="#categorias" id="enlaces" class="enlaces1" target="">
+                        <h4>Productos</h4>
+                    </a>
+
+                    <a href="#conjuntos" id="enlaces" class="enlaces1" target="">
+                        <h4>Conjuntos</h4>
+                    </a>
+                    <a href="https://wa.me/542646259324" target="_blank" class="redes1" id="enlaces">
+                        <h3><i class="fa-brands fa-whatsapp"></i></h3>
+                    </a>
+                    <a href="https://www.facebook.com/rocio.kids.33" target="_blank" class="redes1" id="enlaces"><h3><i class="fa-brands fa-facebook"></i></h3></a>
+                    
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div id="bienvenidos1"></div>
+    <h1 id="bienvenidos">Bienvenidos!</h1>
+
+
+
+    <!-- Intento de carrusel-->
+
+<div class="centro">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1700">
+                <img src="fotoss/carusel1.jpeg" class="d-block w-100" alt="baberos">
+            </div>
+            <div class="carousel-item" data-bs-interval="1700">
+                <img src="fotoss/carusel3.jpeg" class="d-block w-100" alt="conjunto">
+            </div>
+            <div class="carousel-item" data-bs-interval="1700">
+                <img src="fotoss/carusel4.jpeg" class="d-block w-100" alt="conjunto">
+            </div>
+        </div>
+        <button id="categorias1" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+    <!-- fin del intento de carrusel-->
+
+
+    <h1 id="categorias">Productos</h1>
+
+
+    <!--posibles cards para los productos, conjuntos, accesorios-->
+
+    <section id="cartas"
+        class="d-flex flex-md-row mx-lg-2 align-items-lg-stretch justify-content-lg-center flex-md-wrap flex-column align-items-center">
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/baberogrande.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text"> Babero grande
+                    
+                </h4>
+                <li>Impermeable</li>
+                <li>26cm x 30cm</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/baberochico.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text"> Baberos chicos
+                </h4>
+                <li>Impermeable</li>
+                <li>20cm x 25cm</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/pilusos.jpg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Pilusos
+                </h4>
+                <li>6 meses</li>
+                <li>9 meses</li>
+                <li>12 meses</li>
+                <li>Variedad de estampado</li>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>--->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/cambiador.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Cambiadores    
+            </h4>
+                <li>Portatil</li>
+                <li>Lavable</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/baberotoalla.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Babero c/cordón
+                </h4>
+                <li>algodón y toalla</li>
+                <li>20cm x 22cm</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/gorritos.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Gorritos
+
+                </h4>
+                <li>100% algodón</li>
+                <li>Talle 0 y 1</li>
+                <li>Variedad de estampadoVariedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/mantas.jpeg" class="card-img-top" alt="mantas">
+            <div class="card-body">
+                <h4 class="card-text">Mantas de algodón
+
+                </h4>
+                <li>100% algodón</li>
+                <li>75cm x 80cm</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/carusel2.jpeg" class="card-img-top" alt="gorros">
+            <div class="card-body">
+                <h4 class="card-text">Gorro turbante
+
+                </h4>
+                <li>c/moño</li>
+                <li>Talle único</li>
+                <li>Variedad de colores</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/portachupetes2.jpeg" class="card-img-top" alt="prtachupetes" id="portachupete">
+            <div class="card-body">
+                <h4 class="card-text">Portachupetes
+                </h4>
+                <li>30cm</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/mantaspiel.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Manta de piel
+
+                </h4>
+                <li>75cm x 80cm</li>
+                <li>Variedad de colores</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/babita.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Babitas
+
+                </h4>
+                <li>100% algodón</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/bandana.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Bandanas
+
+                </h4>
+                <li>100% algodón</li>
+                <li>talle único</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/cuellitos-c.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Cuello Cervical
+
+                </h4>
+                <li>De 0 a 12m</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/cuellito-g.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Cuello Cervical
+
+                </h4>
+                <li>De 12m a 3 Años</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/portachupetes.jpg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Portachupetes
+                </h4>
+                <li>16cm</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 22rem;">
+            <img src="fotoss/cuellitos.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Cuello de abrigo
+                </h4>
+                <li>Reversible</li>
+                <li>Variedad de estampado</li>
+                <br>
+                <br>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+    </section>
+    <!-- fin de las posibles cards para los productos, accesorios-->
+
+
+    <h1 id="conjuntos">Conjuntos</h1>
+
+
+    <!--  posibles cards para los productos, accesorios-->
+
+    <section id="cartas"
+        class="d-flex flex-md-row mx-lg-2 align-items-lg-stretch justify-content-lg-center flex-md-wrap flex-column align-items-center">
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conjuntoH1.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Cuello cervical, babita, babero c/cordón
+                </h5>
+
+                <br>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conjunto4.jpg" class="card-img-top" alt="baberos" id="conj">
+            <div class="card-body">
+
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Cuello cervical, babita, babero c/cordón, portachupete
+                </h5>
+                <h3>Precio: Consultar</h3>
+                <!-- <a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conjunto1.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Cuello cervical, babita, babero c/cordón, portachupete
+                </h5>
+
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conjuntoH.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Cuello cervical, babita, babero c/cordón
+                </h5>
+                <br>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conjn.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Cuello cervical, babita, babero c/cordón, portachupete
+                </h5>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conj1n (1).jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Cuello cervical, babita, babero c/cordón, portachupete
+                </h5>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conjunto6.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Gorrito, mantita, bandana
+                </h5>
+                <br>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conj1n (2).jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Cuello cervical, babita, babero c/cordón, portachupete
+                </h5>
+                <h3>Precio: Consultar</h3>
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/bybh.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Babero c/cordón, babita
+                </h5>
+                <br>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/bybm.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Babero c/cordón, babita
+                </h5>
+                <br>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+        <div class="card col-lg-3 col-md-12 my-2 mx-lg-3" style="width: 26rem;">
+            <img src="fotoss/conjh2.jpeg" class="card-img-top" alt="baberos">
+            <div class="card-body">
+
+                
+                <h4 class="card-text">Conjunto: </h4>
+                <h5>
+                    Gorrito, mantita, bandana
+                </h5>
+                <br>
+                <h3>Precio: Consultar</h3>
+
+                <!--<a href="#" class="btn btn-primary">Agregar al carrito</a>-->
+            </div>
+        </div>
+
+
+        
+    </section>
+
+    <div style="text-align: center;">
+        <h3><button onclick="info()" id="open" class="funcion">Mas informacion sobre conjuntos</button></h3>
+    </div>
+    <div class="modal-container" id="modal_container">
+        <div class="moda" style="text-align: center;">
+            
+            <br>
+
+            <h5><li>Los conjuntos pueden ser armados a tu gusto.</li></h5>
+            <h5> <li>Consultá por más varieded.</li></h5>
+            <h5> <li>El precio varía según los productos.</li></h5>
+            <h5><li>No dudes en hacer tu consulta!</li></h5>
+
+            <br>
+            <h5><button id="close" onclick="info1()"  class="funcion">Cerrar</button></h5>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <h2 id="onlyfin"> ONLY KIDS</h2>
+        <h5 id="fin"> Comunicate con nosotros a través de nuestras redes sociales!</h5>
+        <!--<ul>
+            <li>WhatsApp: 265428934</li>
+            <li>Facebook: Onlyy kids</li>
+        </ul>-->
+        <a href="https://wa.me/542646259324" target="_blank" class="redes">
+            <h3><i class="fa-brands fa-whatsapp"> 2646259324</i></h3>
+        </a>
+        <a href="https://www.facebook.com/rocio.kids.33" target="_blank" class="redes"><h3><i class="fa-brands fa-facebook"> Onlyy Kids</i></h3></a>
+       
+    </footer>
+</body>
+
+</html>
